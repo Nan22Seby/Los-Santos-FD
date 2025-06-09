@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Manual LSFD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #3c3c47;
+      color: white;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .sidebar h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 8px 0;
+      border-left: 3px solid transparent;
+    }
+
+    .sidebar a:hover,
+    .sidebar a.active {
+      background-color: #4a4a5e;
+      border-left: 3px solid #e60000;
+    }
+
+    .content {
+      flex: 1;
+      overflow-y: auto;
+      background-color: #fff;
+    }
+
+    .header-image {
+      width: 100%;
+      height: 600px;
+      background-image: url('coduri/backround.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .main h1 {
+      color: #990000;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .main h2 {
+      color: #990000;
+      font-size: 22px;
+      margin-top: 0;
+    }
+
+    .main p.signature {
+      font-style: italic;
+      margin-top: 40px;
+      color: #333;
+    }
+
+    .main .seal {
+      margin-top: 40px;
+      width: 80px;
+    }
+
+    .footer {
+      font-size: 12px;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    .uniform-section {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 60px;
+      flex-wrap: wrap;
+    }
+
+    .uniform-box {
+      border: 2px solid #990000;
+      padding: 20px;
+      width: 280px;
+      min-height: 340px;
+      text-align: center;
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(153, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .uniform-box h3 {
+      color: #990000;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+    .uniform-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: auto;
+    }
+
+.uniform-box .description {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #660000;
+  font-style: italic;
+  min-height: 40px;
+  font-weight: bold;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Manual LSFD</h2>
+      <a href="index.html">Acasă</a>
+      <a href="despre.html">Despre</a>
+      <a href="locatii.html">Locații geografice</a>
+      <a href="grade.html">Grade</a>
+      <a href="uniforme.html" class="active">Uniforme</a>
+      <a href="echipamente.html">Echipamente</a>
+      <a href="radio.html">Dispach</a>
+      <a href="comenzi.html">Manual Departamental</a>
+      <a href="coduri.html">Coduri</a>
+      <a href="masini.html">Masini</a>
+      </div>
+    <div class="content">
+      <div class="header-image">
+      </div>
+      <div class="main">
+        <h1>LOS SANTOS FIRE DEPARTMENT</h1>
+        <hr style="margin: 30px auto; width: 60%;">
+        <h2>Uniforme</h2>
+
+        <div class="uniform-section">
+          <div class="uniform-box">
+            <h3>Uniforme Paramedic</h3>
+            <img src="coduri/uniforma1.png" alt="Uniforma Paramedic">
+            <p class="description">Palarie : 356 , textura 8
+              Shirt : 802 , textura 0
+              Undershirt: 459 , textura 0
+              Torso : 93 , textura 0
+              Pantaloni: 203 , textura 0
+              Pantofi: 103 , textura 0
+              Ochelari: N/A
+              Masca: 269 , textura 0
+              Ghiozdan: 238 , textura 0 </p>
+          </div>
+          <div class="uniform-box">
+            <h3>Uniforma LSFD Engineer+</h3>
+            <img src="coduri/uniforma2.png" alt="Uniforma LSFD Engineer+">
+            <p class="description">shirt: 578 
+              text: 2 
+              undershirt: 21 
+              torso: 93 
+              pantaloni: 126 
+              pantofi: 103 
+              ghiozdan: 273 
+              cravata: 38</p>
+          </div>
+          <div class="uniform-box">
+            <h3>Uniforme Firefighter</h3>
+            <img src="coduri/uniforma3.png" alt="Uniforma Firefighter"> 
+            <p class="description">Pălărie 360 textura 0
+Shirt 848 textura 0 
+Undershirt 457 textura 0
+Torso 64 textura 0 
+Pantaloni 408 textura 0 
+Pantofi 308 textura 0
+Armură 0 textura 0</p>
+          </div>
+          <div class="uniform-box">
+            <h3>Uniforma AIR</h3>
+            <img src="coduri/uniforma.png" alt="Uniforma AIR">
+            <p class="description">Palarie : 388 , textura 0
+Shirt : 845 , textura 5
+Undershirt: 459 , textura 0
+Torso : 1 , textura 0
+Pantaloni: 399 , textura 3
+Pantofi: 310 , textura 0
+Ochelari: N/A</p>
+          </div>
+          <div class="uniform-box">
+            <h3>Uniform Medic</h3>
+            <img src="coduri/uniforma4.png" alt="Uniforma Medic">
+            <p class="description">Palarie : 266 , textura 0
+Shirt : 530, textura 0
+Undershirt: 0 , textura 0
+Torso : 93 , textura 0
+Pantaloni: 105 , textura 2
+Pantofi: 8 , textura 0
+Ochelari: N/A
+Cravata: 200 , textura 1</p>
+          </div>
+        </div>
+
+        <img src="coduri/insigna1.png" alt="Sigiliu" class="seal">
+        <img src="coduri/insigna2.png" alt="Sigiliu" class="seal">
+        <div class="footer">
+          În numele echipei LSFD:<br>
+          Fire Chief Zeke Monroe<br>
+          Assistant Chief Jay Savage
+        </div>
+      </div>
+    </div>
+  </div>
+    <audio id="bgAudio" loop autoplay muted>
+    <source src="audio/intro-sound.mp3" type="audio/mp3" />
+    Sunetul nu poate fi redat.
+  </audio>
+
+  <div class="volume-control">
+    <button id="toggleSound" class="volume-toggle">🔇</button>
+    <input type="range" id="volumeRange" min="0" max="1" step="0.01" value="0">
+  </div>
+
+  <script>
+    const video = document.getElementById('introVideo');
+    const volumeRange = document.getElementById('volumeRange');
+    const toggleSound = document.getElementById('toggleSound');
+
+    toggleSound.addEventListener('click', () => {
+      video.muted = !video.muted;
+      toggleSound.textContent = video.muted ? '🔇' : '🔊';
+      volumeRange.value = video.muted ? 0 : video.volume;
+    });
+
+    volumeRange.addEventListener('input', () => {
+      video.volume = volumeRange.value;
+      video.muted = video.volume === 0;
+      toggleSound.textContent = video.muted ? '🔇' : '🔊';
+    });
+  </script>
+</body>
+</html>
+

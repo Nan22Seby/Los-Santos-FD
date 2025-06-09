@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Manual LSFD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #3c3c47;
+      color: white;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .sidebar h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 8px 0;
+      border-left: 3px solid transparent;
+    }
+
+    .sidebar a:hover,
+    .sidebar a.active {
+      background-color: #4a4a5e;
+      border-left: 3px solid #e60000;
+    }
+
+    .content {
+      flex: 1;
+      overflow-y: auto;
+      background-color: #fff;
+    }
+
+    .header-image {
+      width: 100%;
+      height: 600px;
+      background-image: url('coduri/backround.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .main h1 {
+      color: #990000;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .main h2 {
+      color: #990000;
+      font-size: 22px;
+      margin-top: 0;
+    }
+
+    .main p.signature {
+      font-style: italic;
+      margin-top: 40px;
+      color: #333;
+    }
+
+    .main .seal {
+      margin-top: 40px;
+      width: 80px;
+    }
+
+    .footer {
+      font-size: 12px;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    /* Chenar rosu pentru echipamente si unelte */
+    .red-box {
+      border: 2px solid red;
+      padding: 20px;
+      margin-top: 40px;
+      text-align: left;
+      font-size: 16px;
+      color: #990000;
+      border-radius: 8px;
+      background-color: #fff0f0;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .red-box h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .red-box ul {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    .red-box ul ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Manual LSFD</h2>
+      <a href="index.html">Acasă</a>
+      <a href="despre.html">Despre</a>
+      <a href="locatii.html">Locații geografice</a>
+      <a href="grade.html">Grade</a>
+      <a href="uniforme.html">Uniforme</a>
+      <a href="echipamente.html" class="active">Echipamente</a>
+      <a href="radio.html">Dispach</a>
+      <a href="comenzi.html">Manual Departamental</a>
+      <a href="coduri.html">Coduri</a>
+      <a href="masini.html">Masini</a>
+
+    </div>
+    <div class="content">
+      <div class="header-image">
+      </div>
+      <div class="main">
+        <h1>LOS SANTOS FIRE DEPARTMENT</h1>
+        <hr style="margin: 30px auto; width: 60%;">
+        <h2>Echipamente si unelte</h2>
+
+        <div class="red-box">
+          <p>Echipa este echipată cu următoarele echipamente și unelte specializate:</p>
+          <ul>
+            <li><strong>Halligan Bar</strong> – folosit pentru a trage, ridica, perfora, răsuci, îndepărta și deschide bariere sau obstacole.</li>
+            <li><strong>Firaxe</strong> – utilizate pentru dărâmarea pereților, ușilor sau reducerea obstacolelor.</li>
+            <li><strong>Cut off saw</strong> – capabil să taie prin materiale de construcție, metal sau acoperișuri.</li>
+            <li><strong>Chainsaw</strong> – pentru tăierea materialelor din lemn.</li>
+            <li><strong>Ferăstrău reciprocant</strong> – pentru tăierea sticlei și oțelului (ex: parbriz, țevi).</li>
+            <li><strong>Set portabil de torță</strong></li>
+            <li><strong>Come-a-long</strong></li>
+            <li><strong>Winch</strong></li>
+            <li><strong>Materiale cribbing</strong></li>
+            <li><strong>Lanțuri și cârlige</strong></li>
+            <li><strong>Material de urcare</strong>:
+              <ul>
+                <li>Carabiners</li>
+                <li>Rope</li>
+                <li>Harness</li>
+                <li>Scripete</li>
+              </ul>
+            </li>
+            <li><strong>Further covers</strong> – folosite pentru protejarea materialelor (ex: acoperire deteriorări).</li>
+            <li><strong>Hydrant Tool</strong> – pentru deschiderea hidranților și atașarea furtunurilor.</li>
+            <li><strong>X-collar</strong> – imobilizarea gâtului pentru prevenirea leziunilor suplimentare.</li>
+            <li><strong>Kendrick's Extraction Device</strong> – extragerea persoanelor din vehicule, protejând gâtul și spatele.</li>
+            <li><strong>Glas-Master</strong> – pentru spargerea și tăierea sticlei (ex: accidente auto).</li>
+            <li><strong>Cutting Pliers</strong> – pentru tăierea cablurilor (ex: cabluri baterie).</li>
+            <li><strong>Spreader-Cutters</strong> – combină funcțiile de spreader și cutter, folosit pentru a deschide uși sau tăia vehicule.</li>
+            <li><strong>Berbeci hidraulici</strong> – pentru îndepărtarea secțiunilor din vehicule sau alte structuri.</li>
+            <li><strong>Rescue Tripod</strong> – pentru ridicarea persoanelor din spații înguste, folosit împreună cu KED și backboards.</li>
+          </ul>
+        </div>
+
+
+        <img src="coduri/insigna1.png" alt="Sigiliu" class="seal">
+        <img src="coduri/insigna2.png" alt="Sigiliu" class="seal">
+        <div class="footer">
+          În numele echipei LSFD:<br>
+          Fire Chief Zeke Monroe<br>
+          Assistant Chief Jay Savage
+        </div>
+      </div>
+    </div>
+  </div>
+    <audio id="bgAudio" loop autoplay muted>
+    <source src="audio/intro-sound.mp3" type="audio/mp3" />
+    Sunetul nu poate fi redat.
+  </audio>
+
+  <div class="volume-control">
+    <button id="toggleSound" class="volume-toggle">🔇</button>
+    <input type="range" id="volumeRange" min="0" max="1" step="0.01" value="0">
+  </div>
+
+  <script>
+    const video = document.getElementById('introVideo');
+    const volumeRange = document.getElementById('volumeRange');
+    const toggleSound = document.getElementById('toggleSound');
+
+    toggleSound.addEventListener('click', () => {
+      video.muted = !video.muted;
+      toggleSound.textContent = video.muted ? '🔇' : '🔊';
+      volumeRange.value = video.muted ? 0 : video.volume;
+    });
+
+    volumeRange.addEventListener('input', () => {
+      video.volume = volumeRange.value;
+      video.muted = video.volume === 0;
+      toggleSound.textContent = video.muted ? '🔇' : '🔊';
+    });
+  </script>
+</body>
+</html>
+

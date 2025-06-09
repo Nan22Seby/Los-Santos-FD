@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>Manual LSFD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #3c3c47;
+      color: white;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .sidebar h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 8px 0;
+      border-left: 3px solid transparent;
+    }
+
+    .sidebar a:hover,
+    .sidebar a.active {
+      background-color: #4a4a5e;
+      border-left: 3px solid #e60000;
+    }
+
+    .content {
+      flex: 1;
+      overflow-y: auto;
+      background-color: #fff;
+    }
+
+    .header-image {
+      width: 100%;
+      height: 600px;
+      background-image: url('coduri/backround.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .main h1 {
+      color: #990000;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .main h2 {
+      color: #990000;
+      font-size: 22px;
+      margin-top: 0;
+    }
+
+    .main p.signature {
+      font-style: italic;
+      margin-top: 20px;
+      color: #333;
+      font-size: 18px;
+    }
+
+    .main .seal {
+      margin-top: 40px;
+      width: 80px;
+    }
+
+    .footer {
+      font-size: 12px;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    /* Chenar rosu pentru echipamente si unelte */
+    .red-box {
+      border: 2px solid red;
+      padding: 20px;
+      margin-top: 40px;
+      text-align: left;
+      font-size: 16px;
+      color: #990000;
+      border-radius: 8px;
+      background-color: #fff0f0;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      white-space: pre-line;
+      font-weight: bold; /* textul este acum bold */
+    }
+
+    .red-box h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .red-box ul {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+
+    .red-box ul ul {
+      padding-left: 20px;
+    }
+
+    /* Nou chenar rosu pentru "DISPACH" */
+    .dispatch-box {
+      border: 2px solid red;
+      padding: 15px 25px;
+      margin: 30px auto 10px auto;
+      max-width: 400px;
+      color: #990000;
+      font-weight: bold;
+      font-size: 22px;
+      border-radius: 8px;
+      background-color: #fff0f0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Manual LSFD</h2>
+      <a href="index.html">Acasă</a>
+      <a href="despre.html">Despre</a>
+      <a href="locatii.html">Locații geografice</a>
+      <a href="grade.html">Grade</a>
+      <a href="uniforme.html">Uniforme</a>
+      <a href="echipamente.html">Echipamente</a>
+      <a href="radio.html" class="active">Dispach</a>
+      <a href="comenzi.html">Manual Departamental</a>
+      <a href="coduri.html">Coduri</a>
+      <a href="masini.html">Masini</a>
+    </div>
+    <div class="content">
+      <div class="header-image">
+        </video>
+      </div>
+      <div class="main">
+        <h1>LOS SANTOS FIRE DEPARTMENT</h1>
+        <hr style="margin: 30px auto; width: 60%;">
+        <h2>Dispach</h2>
+
+        <div class="red-box">
+          <h3>Structura Callsign-urilor propuse</h3>
+E-451 → Engine 451
+
+„E” vine de la Engine (autospecială de pompieri).
+
+„451” este un număr de identificare (poate fi stația, numărul unității sau alt cod ales).
+
+T-507 → Truck 507
+
+„T” vine de la Truck (autoscară cu scară extensibilă).
+
+„507” este numărul unității pentru identificare.
+
+R-87X → Rescue 87X
+
+„R” vine de la Rescue (unitate de salvare tehnică).
+
+„87X” este un cod unic pentru unitate.
+
+S-417 → Squad 417
+
+„S” vine de la Squad (unitate multifuncțională, salvare și intervenții speciale).
+
+„417” este un identificator unic.
+
+M-321 → Medic 321
+
+„M” vine de la Medic (ambulanță / unitate medicală).
+
+„321” este numărul unității.
+
+HM-12 → Hazmat 12
+
+„HM” vine de la Hazmat (unitate materiale periculoase).
+
+„12” este numărul de identificare.
+
+C-210 → Command 210
+
+„C” vine de la Command (vehicul de comandă).
+
+„210” este numărul unității.
+
+WT-08 → Water Tender 08
+
+„WT” vine de la Water Tender (autospecială cu rezervor mare de apă).
+
+„08” este numărul unității.
+
+AIR-312 → AIR 312
+
+„AIR” vine de la Air.
+
+„312” este numărul unității.
+
+Cum alegi Callsign-ul?
+Primele litere reprezintă tipul unității:
+
+E = Engine
+
+T = Truck
+
+R = Rescue
+
+S = Squad
+
+M = Medic
+
+BR = Brush
+
+HM = Hazmat
+
+C = Command
+
+WT = Water Tender
+
+A = AIR
+
+Numărul de după litere este un cod unic pentru fiecare unitate, poate reprezenta stația, zona, sau un număr de ordine.
+
+
+        </div>
+
+        <img src="coduri/insigna1.png" alt="Sigiliu" class="seal">
+        <img src="coduri/insigna2.png" alt="Sigiliu" class="seal">
+        <div class="footer">
+          În numele echipei LSFD:<br />
+          Fire Chief Zeke Monroe<br />
+          Assistant Chief Jay Savage
+        </div>
+      </div>
+    </div>
+  </div>
+    <audio id="bgAudio" loop autoplay muted>
+    <source src="audio/intro-sound.mp3" type="audio/mp3" />
+    Sunetul nu poate fi redat.
+  </audio>
+
+  <div class="volume-control">
+    <button id="toggleSound" class="volume-toggle">🔇</button>
+    <input type="range" id="volumeRange" min="0" max="1" step="0.01" value="0">
+  </div>
+
+  <script>
+    const video = document.getElementById('introVideo');
+    const volumeRange = document.getElementById('volumeRange');
+    const toggleSound = document.getElementById('toggleSound');
+
+    toggleSound.addEventListener('click', () => {
+      video.muted = !video.muted;
+      toggleSound.textContent = video.muted ? '🔇' : '🔊';
+      volumeRange.value = video.muted ? 0 : video.volume;
+    });
+
+    volumeRange.addEventListener('input', () => {
+      video.volume = volumeRange.value;
+      video.muted = video.volume === 0;
+      toggleSound.textContent = video.muted ? '🔇' : '🔊';
+    });
+  </script>
+</body>
+</html>
+
